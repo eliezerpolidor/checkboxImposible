@@ -9,7 +9,7 @@ Inspirado por el trabajo creativo de **Alvaro Montoro**.
 
 ## 🚀 Demo
 
-<a href="https://eliezerpolidor.github.io/checkboxImposible/" target="_blank">Dame y Prueba si puedes Activar el CheckBox</a>
+<a href="https://eliezerpolidor.github.io/checkboxImposible/" target="_blank">Dame Click y Prueba si puedes Activar el CheckBox</a>
 
 Puedes cambiar el código y probarlo en vivo aquí: [ENLACE_A_TU_CODEPEN_O_GITHUB_PAGES]
 
