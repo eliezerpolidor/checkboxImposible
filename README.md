@@ -9,7 +9,7 @@ Inspirado por el trabajo creativo de **Alvaro Montoro**.
 
 ## 🚀 Demo
 
-Dale click al enlace y prueba https://eliezerpolidor.github.io/checkboxImposible/
+<a href="https://eliezerpolidor.github.io/checkboxImposible/" target="_blank">Dame y Prueba si puedes Activar el CheckBox</a>
 
 Puedes cambiar el código y probarlo en vivo aquí: [ENLACE_A_TU_CODEPEN_O_GITHUB_PAGES]
 
@@ -39,7 +39,7 @@ Abre el archivo index.html en tu navegador.
 Soy Eliezer Polidor, Desarrollador Web enfocado en crear soluciones creativas y eficientes.
 
 <p>
-  LinkedIn: <a href="https://www.linkedin.com/in/eliezer-polidor-301a771b4" target="_blank" rel="noopener noreferrer">eliezer-polidor</a>
+  LinkedIn: <a href="https://www.linkedin.com/in/eliezer-polidor" target="_blank" rel="noopener noreferrer">CV Eliezer Polidor</a>
 </p>
 <p>
   Portafolio: <a href="https://eliezerpolidor.github.io/cvEliezer/" target="_blank" rel="noopener noreferrer">Mi Portafolio</a>
