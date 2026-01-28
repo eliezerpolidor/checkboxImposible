@@ -10,7 +10,9 @@ Inspirado por el trabajo creativo de **Alvaro Montoro**.
 Dale click al enlace y prueba https://eliezerpolidor.github.io/checkboxImposible/
 
 ## 🚀 Demo
-Puedes probarlo en vivo aquí: [ENLACE_A_TU_CODEPEN_O_GITHUB_PAGES]
+
+Dale click al enlace y prueba https://eliezerpolidor.github.io/checkboxImposible/
+Puedes cambiar el código y probarlo en vivo aquí: [ENLACE_A_TU_CODEPEN_O_GITHUB_PAGES]
 
 ## 🛠️ Tecnologías utilizadas
 * **HTML5** (Estructura semántica)
