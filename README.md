@@ -7,11 +7,10 @@ Este es el segundo proyecto de mi serie de desafíos de Interfaz de Usuario (UI)
 
 Inspirado por el trabajo creativo de **Alvaro Montoro**.
 
-Dale click al enlace y prueba https://eliezerpolidor.github.io/checkboxImposible/
-
 ## 🚀 Demo
 
 Dale click al enlace y prueba https://eliezerpolidor.github.io/checkboxImposible/
+
 Puedes cambiar el código y probarlo en vivo aquí: [ENLACE_A_TU_CODEPEN_O_GITHUB_PAGES]
 
 ## 🛠️ Tecnologías utilizadas
