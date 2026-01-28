@@ -1,0 +1,137 @@
+:root {
+  --bg: #1a1a1a;
+  --primary: yellow;
+}
+
+body {
+  background: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+/* Escondemos el checkbox real */
+#impossible {
+  display: none;
+}
+
+/* El camino del interruptor */
+.track {
+  display: block;
+  width: 150px;
+  height: 40px;
+  background: #333;
+  border-radius: 40px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* El círculo del interruptor */
+.thumb {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  background: red;
+  border-radius: 50%;
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* La "mano" o el elemento que lo apaga */
+.hand {
+  position: absolute;
+  top: -130px;
+  right: -60px;
+  font-size: 80px;
+  transition: 0.4s ease-in-out;
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+}
+
+.status-text {
+  color: #ffffff;      /* Blanco puro */
+  margin-top: 25px;
+  font-weight: 700;    /* Más negrita */
+  letter-spacing: 1px;
+  opacity: 1 !important; /* Fuerza a que no sea opaco */
+  position: relative;
+  z-index: 10;         /* Lo pone por encima de otros elementos */
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Sombra para que resalte más */
+}
+
+/* --- LÓGICA DE ANIMACIÓN --- */
+
+/* 1. La mano baja, golpea y se retira totalmente */
+#impossible:checked ~ .hand {
+  animation: punch 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* Eliminamos 'forwards' para que al terminar vuelva a su estado oculto */
+}
+
+/* 2. El color del track cambia y vuelve a gris */
+#impossible:checked + .track {
+  animation: reset-color 0.6s step-end;
+}
+
+/* 3. El círculo blanco se mueve y regresa */
+#impossible:checked + .track .thumb {
+  animation: reset-thumb 0.6s step-end;
+}
+
+/* --- LOS KEYFRAMES --- */
+
+@keyframes punch {
+  0% { 
+    opacity: 0; 
+    transform: translateY(0) translateX(0); 
+  }
+  30%, 70% { 
+    opacity: 1; 
+    transform: translateY(45px) translateX(-35px); /* Posición de golpe */
+  }
+  100% { 
+    opacity: 0; 
+    transform: translateY(0) translateX(0); /* Desaparece */
+  }
+}
+
+@keyframes reset-color {
+  0% { background: var(--primary); }
+  100% { background: #333; }
+}
+
+@keyframes reset-thumb {
+  0% { transform: translateX(110px); }
+  100% { transform: translateX(0); }
+}
+
+/*media query para correr en pantallas celulares pequenos*/
+/* Si la pantalla es más pequeña que 480px (celulares) */
+@media (max-width: 480px) {
+  .track {
+    width: 120px; /* Reducimos un poco el tamaño */
+  }
+  
+  .hand {
+    font-size: 60px; /* Ajustamos el dedo para que no sea gigante */
+    top: -115px;
+    right: -20px;
+  }
+
+  /* Si achicas el track, debes ajustar el recorrido de la pelota aquí */
+  @keyframes reset-thumb {
+    0% { transform: translateX(80px); } 
+    100% { transform: translateX(0); }
+  }
+}
