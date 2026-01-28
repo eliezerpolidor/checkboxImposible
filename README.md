@@ -11,7 +11,7 @@ Inspirado por el trabajo creativo de **Alvaro Montoro**.
 
 <a href="https://eliezerpolidor.github.io/checkboxImposible/" target="_blank">Dame Click y Prueba si puedes Activar el CheckBox</a>
 
-Puedes cambiar el código y probarlo en vivo aquí: [ENLACE_A_TU_CODEPEN_O_GITHUB_PAGES]
+Puedes cambiar el código y probarlo en vivo aquí: <a href="https://codepen.io/eliezerpol/pen/wBWpPPg" target="_blank">Dame Click y prueba Cambiando el codigo</a>
 
 ## 🛠️ Tecnologías utilizadas
 * **HTML5** (Estructura semántica)
