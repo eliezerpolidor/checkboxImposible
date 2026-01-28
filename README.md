@@ -38,6 +38,9 @@ Abre el archivo index.html en tu navegador.
 👨‍💻 Sobre mí
 Soy Eliezer Polidor, Desarrollador Web enfocado en crear soluciones creativas y eficientes.
 
-LinkedIn: https://www.linkedin.com/in/eliezer-polidor
-
-Portafolio: https://eliezerpolidor.github.io/cvEliezer/
+<p>
+  LinkedIn: <a href="https://www.linkedin.com/in/eliezer-polidor-301a771b4" target="_blank" rel="noopener noreferrer">eliezer-polidor</a>
+</p>
+<p>
+  Portafolio: <a href="https://eliezerpolidor.github.io/cvEliezer/" target="_blank" rel="noopener noreferrer">Mi Portafolio</a>
+</p>
